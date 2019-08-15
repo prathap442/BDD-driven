@@ -1,24 +1,18 @@
-# README
+# So this is for the sake of the BDD based driven development sake
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Application
+  - the company needs  the documentation on saying the employees are paid or unpaid for the extra work being done each week
 
-Things you may want to cover:
+## Models
+  -Post ---> date:date rationale:text
+  -User ---> Creation Using the Devise
+  -Admin --> STI
+## Features
+-Approval Workflow
+-SMS Sending --> link to approval or overtime input
+-Administrate each admin dashboard
+-Email summary to managers for the approval
+-Needs to be documented if the employee did not log overtime
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+##UI
+-Bootstrap ---> Formatting
