@@ -5,8 +5,12 @@
 
 ## Models
   -Post ---> date:date rationale:text
-  -User ---> Creation Using the Devise
-  -Admin --> STI
+  x-User ---> Creation Using the Devise
+  x-AdminUser --> STI
+  STI(the concept of the single table inheritance)
+     this states that the AdminUser and User are the two different models with AdminUser being the child of User and they both use the table users only 
+     So if two or more models use the same table then the column 'type:string' needs to be added to the parent tables for the segregation of the records that belong to one family
+
 ## Features
 -Approval Workflow
 -SMS Sending --> link to approval or overtime input
