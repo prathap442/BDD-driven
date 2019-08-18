@@ -25,3 +25,8 @@
 # BDD based driven development we start from the front end
 
 * features --> this folder is specially helpful when we need to do the feature tests like integration tests
+
+#COMMANDS interesting
+```
+  bundle exec rake routes | grep post
+```
